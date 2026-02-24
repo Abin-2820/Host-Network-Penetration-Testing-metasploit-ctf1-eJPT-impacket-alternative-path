@@ -1,7 +1,7 @@
 # Host-Network-Penetration-Testing-metasploit-ctf1-eJPT-impacket-alternative-path
 Alternative Initial Access to Windows MSSQL Lab Using Impacket
 
-# Alternative Initial Access in eJPT Metasploit Framework CTF 1 Using Impacket
+## Alternative Initial Access in eJPT Metasploit Framework CTF 1 Using Impacket
 
 ## Author
 Abin Watson
@@ -59,7 +59,7 @@ This shifted the attack strategy from exploitation to authenticated access.
 
 Instead of launching a Metasploit exploit module, the tool used was:
 
-impacket-mssqlclient sa@<target>
+impacket-mssqlclient sa@<IP address>
 
 This provided authenticated access to the MSSQL service.
 
